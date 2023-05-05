@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Creating a serverless application with react using AWS
         </a>
       </header>
     </div>
