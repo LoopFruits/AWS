@@ -1,4 +1,5 @@
 import React from 'react';
+import menuLinksData from './data/menu_links.json'
 
 const Header = () => {
     return (
@@ -15,6 +16,10 @@ const Header = () => {
           <div className="navbar">
             <div className="brand"><a href="#welcome">Landon <span>Hotel</span></a></div>
             <ul>
+              {
+                menuLinksData.map((link)) => 
+                <li><a className={`icon ${link.class}`} href={link.href}><span>{link.text}</span></a></li>
+              }
               <li><a className="icon info" href="#hotelinfo"><span>info</span></a></li>
               <li><a className="icon rooms" href="#rooms"><span>rooms</span></a></li>
               <li><a className="icon dining" href="#dining"><span>dining</span></a></li>
