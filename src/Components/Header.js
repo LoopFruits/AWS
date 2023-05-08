@@ -19,12 +19,11 @@ const Header = () => {
               {
                 menuLinksData.map((link)) => 
                 <li><a className={`icon ${link.class}`} href={link.href}><span>{link.text}</span></a></li>
+                <li><a className={`icon ${link.class}`} href={link.href}><span>{link.text}</span></a></li>
+                <li><a className={`icon $dining.class`} href={link.href}><span>{link.text}</span></a></li>
+                <li><a className="icon events" href="#events"><span>events</span></a></li>
+                <li><a className="icon attractions" href="#attractions"><span>attractions</span></a></li>
               }
-              <li><a className="icon info" href="#hotelinfo"><span>info</span></a></li>
-              <li><a className="icon rooms" href="#rooms"><span>rooms</span></a></li>
-              <li><a className="icon dining" href="#dining"><span>dining</span></a></li>
-              <li><a className="icon events" href="#events"><span>events</span></a></li>
-              <li><a className="icon attractions" href="#attractions"><span>attractions</span></a></li>
             </ul>
           </div>
         </nav>
