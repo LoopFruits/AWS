@@ -5,23 +5,23 @@
         "text": "info"
     },
     {
-        "class": "info",
-        "href": "#hotelinfo",
-        "text": "info"
+        "class": "rooms",
+        "href": "#rooms",
+        "text": "rooms"
     },
     {
-        "class": "info",
-        "href": "#hotelinfo",
-        "text": "info"
+        "class": "dining",
+        "href": "#dining",
+        "text": "dining"
     },
     {
-        "class": "info",
-        "href": "#hotelinfo",
-        "text": "info"
+        "class": "events",
+        "href": "#events",
+        "text": "events"
     },
     {
-        "class": "info",
-        "href": "#hotelinfo",
-        "text": "info"
-    },
+        "class": "attractions",
+        "href": "#attractions",
+        "text": "attractions"
+    }
 ]
