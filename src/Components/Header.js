@@ -17,12 +17,9 @@ const Header = () => {
             <div className="brand"><a href="#welcome">Landon <span>Hotel</span></a></div>
             <ul>
               {
-                menuLinksData.map((link)) => 
+                menuLinksData.map((link) => 
                 <li><a className={`icon ${link.class}`} href={link.href}><span>{link.text}</span></a></li>
-                <li><a className={`icon ${link.class}`} href={link.href}><span>{link.text}</span></a></li>
-                <li><a className={`icon $dining.class`} href={link.href}><span>{link.text}</span></a></li>
-                <li><a className="icon events" href="#events"><span>events</span></a></li>
-                <li><a className="icon attractions" href="#attractions"><span>attractions</span></a></li>
+                )
               }
             </ul>
           </div>
