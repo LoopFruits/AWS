@@ -8,7 +8,7 @@ const Welcome = () => {
             <article className="content">
             <div className="gallery">
                 {WelcomeLinks.map((links)
-                    <img src={`https://landonhotel.com/images/hotel/intro_room.jpg` alt="Intro Gallery Room Sample Pictures"}/>
+                    <img src={`${link.src}`} alt="Intro Gallery Room Sample Pictures"}/>
                     )
                 }
                 <img src="https://landonhotel.com/images/hotel/intro_room.jpg" alt="Intro Gallery Room Sample Pictures"/>
