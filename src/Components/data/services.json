@@ -15,10 +15,10 @@
         "name": "In-room jacuzzi tubs"
     },
     {
-        "name": "Rooftop cafe & smoothie bar"
+        "name": "Rooftop cafe &amp; smoothie bar"
     },
     {
-        "name": "Coffee bar & pastry shop"
+        "name": "Coffee bar &amp; pastry shop"
     },
     {
         "name": "Traditional continental breakfast"
@@ -33,7 +33,7 @@
         "name": "Complimentary wireless service"
     },
     {
-        "name": "Laundry & dry cleaning service"
+        "name": "Laundry &amp; dry cleaning service"
     },
     {
         "name": "Daily paper"
@@ -42,6 +42,6 @@
         "name": "Certified \"green\" hotel"
     },
     {
-        "name": "Pet-friendly rooms & common areas"
+        "name": "Pet-friendly rooms &amp; common areas"
     }
 ]
