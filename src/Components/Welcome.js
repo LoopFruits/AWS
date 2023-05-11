@@ -1,5 +1,5 @@
 import React from 'react';
-import WelcomeLinks from './data/welcome_links.json'
+import welcomeLinks from './data/welcome_links.json'
 
 
 const Welcome = () => {
@@ -7,7 +7,7 @@ const Welcome = () => {
         <div className="scene" id="welcome">
             <article className="content">
             <div className="gallery">
-                {WelcomeLinks.map((links)
+                {welcomeLinks.map((image)
                     <img src={`${link.src}`} alt="Intro Gallery Room Sample Pictures"}/>
                     )
                 }
