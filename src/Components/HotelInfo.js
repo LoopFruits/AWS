@@ -1,4 +1,6 @@
 import React from 'react';
+import services from './data/services.json'
+import amenities from './data/amenities.json'
 
 
 const HotelInfo = () => {
