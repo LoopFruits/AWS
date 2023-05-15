@@ -26,7 +26,7 @@ const HotelInfo = () => {
             <p>Our services and amenities are designed to make your travel easy, your stay comfortable, and your experience one-of-a-kind.</p>
             <ul>
               {
-                amenities.map((service) =>
+                services.map((service) =>
                 <li>{service.name}</li>
                 )
               }
@@ -51,6 +51,11 @@ const HotelInfo = () => {
             <h2>Accessibility</h2>
             <p>We're committed to maintaining the same quality of service for every individual. We offer the following facilities for those with special needs:</p>
             <ul>
+              {
+                amenities.map((accessibility) =>
+                <li>{accessibility.name}</li>
+                )
+              }
               <li>Grab bars on tub walls</li>
               <li>Shower chairs</li>
               <li>Hand held shower sprayers</li>
