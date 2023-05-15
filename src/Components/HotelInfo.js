@@ -25,6 +25,11 @@ const HotelInfo = () => {
             <h2>Services and Amenities</h2>
             <p>Our services and amenities are designed to make your travel easy, your stay comfortable, and your experience one-of-a-kind.</p>
             <ul>
+              {
+                amenities.map((service) =>
+                <li>{service.name}</li>
+                )
+              }
               <li>Indoor pool</li>
               <li>24-hour fitness center</li>
               <li>Massage therapy</li>
