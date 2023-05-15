@@ -7,8 +7,9 @@ const Welcome = () => {
         <div className="scene" id="welcome">
             <article className="content">
             <div className="gallery">
-                {welcomeLinks.map((image)
-                    <img src={`${link.src}`} alt="Intro Gallery Room Sample Pictures"}/>
+                {
+                    welcomeLinks.map((image) => 
+                    <img className={image.className} src={image.src} alt={image.alt} />
                     )
                 }
                 <img src="https://landonhotel.com/images/hotel/intro_room.jpg" alt="Intro Gallery Room Sample Pictures"/>
